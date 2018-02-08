@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BPM Contact Form</title>
+  <link rel="stylesheet" type="text/css" href="/Users/jafar.s/Documents/GitHub/BPM website/css/style.css">
+</head>
+<body>
+  <header class="header">
+<h2>Contact Form</h2>
+<p>If you are interesed to be our partners or want to work with us! Please fill up this conatct </p>
+
+<section class="personal" id="personal">
+  <fieldset>
+    <legend>Personal Information:</legend>
+  <form class="personal-form">
+    <div class="container">
+     <div class="row">
+      <div class="col-1">
+       <label for="fname">First Name*</label>
+      </div>
+     <div class="col-2">
+    <input type="text" id="fname" name="firstname" placeholder="Your first name.." required="required">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-1">
+      <label for="lname">Last Name</label>
+        </div>
+        <div class="col-2">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+  <div class="row">
+    <div class="col-1">
+      <label for="lname">Company Name</label>
+       </div>
+      <div class="col-2">
+      <input type="text" id="cname" name="companyname" placeholder="Your company name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-1">
+      <label for="lname">Mobile Number</label>
+       </div>
+      <div class="col-2">
+      <input type="text" id="mnumber" name="mnumber" placeholder="Your mobile number..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-1">
+      <label for="lname">Email Address*</label>
+       </div>
+      <div class="col-2">
+      <input type="text" id="email" name="email" placeholder="Your email address.." required="required">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-1">
+      <label for="jobtype">Job type</label>
+       </div>
+        <div class="col-2">
+        <select id="jobtype" name="type">
+        <option value="renovation">Home Renovation</option>
+        <option value="restore">Restoration Work</option>
+        <option value="emergency">Residence emergency response</option>
+        <option value="Contact">Contact Center</option>
+        <option value="system">System Development</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-1">
+      <label for="subject">Comments</label>
+      </div>
+       <div class="col-2">
+        <textarea id="comments" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+   <div class="row">
+   <input type="submit" value="Submit">
+   </div>
+   </form>
+   </fieldset>
+   </div>
+</section>
+</body>
+</html>
